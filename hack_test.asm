@@ -8,7 +8,7 @@
    jmp hijack_up_test
  
  org $00BACE
-   jmp hijack_right_left_test
+  ; jmp hijack_right_left_test ; Need to look at this again later
  
  org $00C020
    andi.w  #$3, D0
@@ -74,7 +74,7 @@ hijack_right_left_test_continue:
    bne     hijack_right_left_test_exit
 
    btst    #$1, D0 ; test left 
-   beq     hijack_right_left_test_exit
+   bne     hijack_right_left_test_exit
 
    jmp $00BAFE
    
