@@ -1,0 +1,1 @@
+java -jar RomMangler.jar combine ghouls_split.cfg ghouls.bin

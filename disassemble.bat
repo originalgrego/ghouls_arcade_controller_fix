@@ -1,0 +1,1 @@
+java -jar TraceLogDisassembler.jar trace mame C:\Users\grego\Documents\ghoulstest\ ghouls-trace.log
